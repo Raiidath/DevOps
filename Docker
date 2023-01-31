@@ -2,11 +2,12 @@
 
 echo c est quoi votre aquation
 
-read a op a
+read a op b
 
 case $op in
-        "*")
-        let "res=a*a"
+        "**")
+        let "b=2"
+        let "res=a**b"
         echo "the result is $res ";;
         *)
         echo "enter a valid equation ";;
