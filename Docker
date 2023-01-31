@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo c est quoi votre aquation
+
+read a op a
+
+case $op in
+        "*")
+        let "res=a*a"
+        echo "the result is $res ";;
+        *)
+        echo "enter a valid equation ";;
+
+esac
